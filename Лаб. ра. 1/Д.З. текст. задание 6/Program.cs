@@ -27,9 +27,11 @@ namespace Д.З.текст.задание_6
             Console.WriteLine("Введите цену товара");//Выведите на экран строковый литерал "Введите цену товара".
 
             productCost = Console.ReadLine();//Инициализируйте productCost - запишите в нее строку, полученную от пользователя.
-
-            Console.WriteLine("Распродажа в {0} !",companyName);
-            Console.WriteLine("Наши {0} по супер цене. Всего {1} !", productName, productCost);
+            messagePart = "Распродажа в " + companyName + "!";
+            Console.WriteLine(messagePart);
+            messagePart = "Наши " + productName + " по супер цене. Всего " + productCost + "!";
+            Console.WriteLine(messagePart);
+            
             Console.WriteLine("Торопитесь, предложение ограничено!");
 
 
