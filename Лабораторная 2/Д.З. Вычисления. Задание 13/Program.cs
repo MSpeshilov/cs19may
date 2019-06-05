@@ -36,10 +36,12 @@ namespace Д.З.Вычисления.Задание_13
             abmod = amod * bmod;
             double angleab;
             angleab = Math.Acos(productab / abmod);
+            double q;
+            q = angleab * 180 / Math.PI;
             Console.WriteLine("Модуль вектора а = {0:F4}", amod);
             Console.WriteLine("Модуль вектора b = {0:F4}", bmod);
             Console.WriteLine("Скалярное произведение векторов равно {0:F4}", productab);
-            Console.Write("Угол между векторами составляет {0:F4} градусов", angleab);
+            Console.Write("Угол между векторами составляет {0:F4} градусов", q);
         }
     }
 }
