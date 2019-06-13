@@ -11,12 +11,13 @@ namespace Д.З.Проверка_данных.Задание_7
         static void Main(string[] args)
         {
             double x = double.Parse(Console.ReadLine());
-            double sqrt = Math.Sqrt(61 - x);
-            if (sqrt < 0)
+            double s = 61 - x;
+            if (s < 0)
             {
                 Console.WriteLine("Подкоренное выражение должно быть неотрицательным");
                 return;
             }
+            double sqrt = Math.Sqrt(s);
             double result = 3 * sqrt;
             Console.WriteLine("{0:F4}", result);
         }
