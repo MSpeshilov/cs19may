@@ -10,7 +10,7 @@ namespace Д.З.Взаимоисключающие_случаи.Задание_5
     {
         static void Main(string[] args)
         {
-            double x = double.Parse(Console.ReadLine());
+            /*double x = double.Parse(Console.ReadLine());
             double y = double.Parse(Console.ReadLine());
             double z = double.Parse(Console.ReadLine());
             if (x < 0)
@@ -35,7 +35,41 @@ namespace Д.З.Взаимоисключающие_случаи.Задание_5
                 double b = y * y;
                 double c = z * z;
                 Console.WriteLine("{0:F4};{1:F4};{2:F4}", a, b, c);
+            }*/
+
+            double x = double.Parse(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine());
+            double z = double.Parse(Console.ReadLine());
+            if (x < 0)
+            {
+                Console.Write("{0};", x);
+
             }
-        }
+            else
+            {
+                double a = x * x;
+                Console.Write("{0:F4};", a);
+            } 
+            if (y < 0)
+            {
+                Console.Write("{0};", y);
+
+            }
+            else
+            {
+                double b = y * y;
+                Console.Write("{0:F4};", b);
+            }
+            if (z < 0)
+            {
+                Console.Write("{0};", z);
+
+            }
+            else
+            {
+                double c = z * z;
+                Console.Write("{0:F4};", c);
+            }
+        } 
     }
 }
