@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Взаимоисключа�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Взаимоисключающие случаи. Задание 14", "Взаимоисключающие случаи. Задание 14\Взаимоисключающие случаи. Задание 14.csproj", "{DED69BA6-A411-4153-8EED-476704FC7E9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Взаимлисключающие случаи. Задание 2", "Д.З. Взаимлисключающие случаи. Задание 2\Д.З. Взаимлисключающие случаи. Задание 2.csproj", "{3BEA714D-2D16-48B1-AE56-CBE2178E4CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Взаимоисключающие случаи. Задание 3", "Д.З. Взаимоисключающие случаи. Задание 3\Д.З. Взаимоисключающие случаи. Задание 3.csproj", "{FA6A48D9-C772-48A7-B73C-EC428A5113E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. взаимоисключающие случаи. Задание 4", "Д.З. взаимоисключающие случаи. Задание 4\Д.З. взаимоисключающие случаи. Задание 4.csproj", "{DFB9974D-0C8E-40ED-95FD-2C10A70B1F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Взаимоисключающие случаи. Задание 5", "Д.З. Взаимоисключающие случаи. Задание 5\Д.З. Взаимоисключающие случаи. Задание 5.csproj", "{2D725D84-FC70-443C-99F3-D8C63A155350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. взаимоисключающие случаи. Задание 6", "Д.З. взаимоисключающие случаи. Задание 6\Д.З. взаимоисключающие случаи. Задание 6.csproj", "{E6741DF8-4C37-448C-9E60-5AA9C26A18D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Взаимоисключающие случаи. Задание 7", "Д.З. Взаимоисключающие случаи. Задание 7\Д.З. Взаимоисключающие случаи. Задание 7.csproj", "{B939A256-9B6C-4539-8A23-30CC4663F606}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +39,30 @@ Global
 		{DED69BA6-A411-4153-8EED-476704FC7E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED69BA6-A411-4153-8EED-476704FC7E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED69BA6-A411-4153-8EED-476704FC7E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEA714D-2D16-48B1-AE56-CBE2178E4CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEA714D-2D16-48B1-AE56-CBE2178E4CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEA714D-2D16-48B1-AE56-CBE2178E4CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEA714D-2D16-48B1-AE56-CBE2178E4CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6A48D9-C772-48A7-B73C-EC428A5113E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6A48D9-C772-48A7-B73C-EC428A5113E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6A48D9-C772-48A7-B73C-EC428A5113E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6A48D9-C772-48A7-B73C-EC428A5113E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB9974D-0C8E-40ED-95FD-2C10A70B1F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB9974D-0C8E-40ED-95FD-2C10A70B1F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB9974D-0C8E-40ED-95FD-2C10A70B1F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB9974D-0C8E-40ED-95FD-2C10A70B1F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D725D84-FC70-443C-99F3-D8C63A155350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D725D84-FC70-443C-99F3-D8C63A155350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D725D84-FC70-443C-99F3-D8C63A155350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D725D84-FC70-443C-99F3-D8C63A155350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6741DF8-4C37-448C-9E60-5AA9C26A18D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6741DF8-4C37-448C-9E60-5AA9C26A18D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6741DF8-4C37-448C-9E60-5AA9C26A18D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6741DF8-4C37-448C-9E60-5AA9C26A18D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B939A256-9B6C-4539-8A23-30CC4663F606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B939A256-9B6C-4539-8A23-30CC4663F606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B939A256-9B6C-4539-8A23-30CC4663F606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B939A256-9B6C-4539-8A23-30CC4663F606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
