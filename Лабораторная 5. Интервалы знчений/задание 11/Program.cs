@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Д.З.интервалы_значений.Задание_8
+namespace задание_11
 {
     class Program
     {
@@ -14,20 +14,21 @@ namespace Д.З.интервалы_значений.Задание_8
             int redb = int.Parse(Console.ReadLine());
             int greena = int.Parse(Console.ReadLine());
             int greenb = int.Parse(Console.ReadLine());
-            if (redb < greena || greenb < reda) 
+            if (redb < greena || greenb < reda)
             {
                 Console.WriteLine("Не пересекаются");
-            }else if (greenb < greena || reda > redb)
+            }
+            else if (greenb < greena || reda > redb)
             {
                 Console.WriteLine("Некорректный интервал. Левая граница должна быть меньше правой.");
             }
             else
             {
-                Console.WriteLine("Пересекаются");
+                Console.Write("Пересекаются");
+            } if (greena > reda && greenb > redb)
+            {
+                Console.Write("({0};{1})", redb, greena);
             }
-           
-
-            
         }
     }
 }

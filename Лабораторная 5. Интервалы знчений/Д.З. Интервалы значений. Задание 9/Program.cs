@@ -16,17 +16,21 @@ namespace Д.З.Интервалы_значений.Задание_9
             double yb = double.Parse(Console.ReadLine());
             double dx = xb - xa;
             double dy = yb - ya;
-            double dy2 = dy * dy;
-            double dx2 = dx * dx;
-            /*double xa2 = xa * xa;
-            double xb2 = xb * xb;
-            double ya2 = ya * ya;
-            double yb2 = yb * yb;
-            double xmod = Math.Sqrt(xa2 * xb2);
-            double ymod = Math.Sqrt(ya2 * yb2);*/
-            double dmod = Math.Sqrt(dy2 / dx2);
-            double r = Math.Atan(dmod);
-            Console.WriteLine(r);
+            double dxabs = Math.Abs(dx);
+            double dyabs = Math.Abs(dy);
+            double r = Math.Atan(dyabs/dxabs);
+            double rr = r * 180 / Math.PI;
+            double xba = xb - xa;
+            double yba = yb - ya;
+            double x2 = xba * xba;
+            double y2 = yba * yba;
+            double q = Math.Sqrt(x2 +y2);
+
+            if (dx >= 0 && dy > 0)
+            {
+                Console.WriteLine("Угол в 1 четверти\nГоризонтальное проложение {0:F4}\nДирекционный угол {1:F4}", q, rr);
+            }
+            
         }
     }
 }
