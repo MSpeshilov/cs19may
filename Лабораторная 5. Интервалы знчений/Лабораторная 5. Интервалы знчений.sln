@@ -1,13 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лабораторная 5. Интервалы знчений", "Лабораторная 5. Интервалы знчений\Лабораторная 5. Интервалы знчений.csproj", "{C0A4A639-A9C2-4797-8FC1-8E2B72695EAF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Интервалы значений. Задание 2", "Интервалы значений. Задание 2\Интервалы значений. Задание 2.csproj", "{66017A4B-05F6-4FD8-A4C7-3D35443C4112}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Интервалы значений. Задание 6", "Интервалы значений. Задание 6\Интервалы значений. Задание 6.csproj", "{2C703441-98F2-4CF5-9B51-76BA879CD9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Интервалы значений. Задание 3", "Д.З. Интервалы значений. Задание 3\Д.З. Интервалы значений. Задание 3.csproj", "{ADA523DC-82E9-4521-8089-F5780762F685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Интервалы значений. Задание 4", "Д.З. Интервалы значений. Задание 4\Д.З. Интервалы значений. Задание 4.csproj", "{2C221025-27EE-4C03-AD6A-775AD03208B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Интервалы значений. Задание 5", "Д.З. Интервалы значений. Задание 5\Д.З. Интервалы значений. Задание 5.csproj", "{49F62DD2-BD73-4254-B467-85AFB4DD0026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Интервалы значений. задание 7", "Д.З. Интервалы значений. задание 7\Д.З. Интервалы значений. задание 7.csproj", "{58D1B2DB-F492-47FE-A6B3-36947B899701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. интервалы значений. Задание 8", "Д.З. интервалы значений. Задание 8\Д.З. интервалы значений. Задание 8.csproj", "{9DBB46D9-E940-4063-9072-82FE8A5431C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Интервалы значений. Задание 9", "Д.З. Интервалы значений. Задание 9\Д.З. Интервалы значений. Задание 9.csproj", "{FFC12884-B51A-4E19-A369-2D9FCB488C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Интервалы значений. Задание 10", "Д.З. Интервалы значений. Задание 10\Д.З. Интервалы значений. Задание 10.csproj", "{D665DB01-4FB8-485A-8064-4899AABC5561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +41,39 @@ Global
 		{2C703441-98F2-4CF5-9B51-76BA879CD9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C703441-98F2-4CF5-9B51-76BA879CD9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C703441-98F2-4CF5-9B51-76BA879CD9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA523DC-82E9-4521-8089-F5780762F685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA523DC-82E9-4521-8089-F5780762F685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA523DC-82E9-4521-8089-F5780762F685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA523DC-82E9-4521-8089-F5780762F685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C221025-27EE-4C03-AD6A-775AD03208B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C221025-27EE-4C03-AD6A-775AD03208B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C221025-27EE-4C03-AD6A-775AD03208B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C221025-27EE-4C03-AD6A-775AD03208B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F62DD2-BD73-4254-B467-85AFB4DD0026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F62DD2-BD73-4254-B467-85AFB4DD0026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F62DD2-BD73-4254-B467-85AFB4DD0026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F62DD2-BD73-4254-B467-85AFB4DD0026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D1B2DB-F492-47FE-A6B3-36947B899701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D1B2DB-F492-47FE-A6B3-36947B899701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D1B2DB-F492-47FE-A6B3-36947B899701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D1B2DB-F492-47FE-A6B3-36947B899701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBB46D9-E940-4063-9072-82FE8A5431C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBB46D9-E940-4063-9072-82FE8A5431C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBB46D9-E940-4063-9072-82FE8A5431C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBB46D9-E940-4063-9072-82FE8A5431C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC12884-B51A-4E19-A369-2D9FCB488C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC12884-B51A-4E19-A369-2D9FCB488C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC12884-B51A-4E19-A369-2D9FCB488C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC12884-B51A-4E19-A369-2D9FCB488C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D665DB01-4FB8-485A-8064-4899AABC5561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D665DB01-4FB8-485A-8064-4899AABC5561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D665DB01-4FB8-485A-8064-4899AABC5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D665DB01-4FB8-485A-8064-4899AABC5561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {302E8111-C995-4B04-AA15-1840FFE902F4}
 	EndGlobalSection
 EndGlobal
