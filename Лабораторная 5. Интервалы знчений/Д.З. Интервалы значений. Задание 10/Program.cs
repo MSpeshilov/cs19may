@@ -16,15 +16,12 @@ namespace Д.З.Интервалы_значений.Задание_10
             double y1 = 100;
             double x2 = 170;
             double y2 = 190;
-            
-            
-            if (xt < x1 || xt > x2 )
-            {
-                bool x = true;
-            }if (yt < y1 || yt > y2)
-            {
-                bool y = true;
-            }if (x && y == true)
+            bool x = true;
+            bool y = true;
+            x = (xt < x1 || xt > x2);
+            y = (yt < y1 || yt > y2);
+
+            if (x || y)
             {
                 Console.WriteLine("Точка снаружи");
             }
