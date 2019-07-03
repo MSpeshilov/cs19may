@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лабораторная 6. Реорганизация повторяющихся действий Задание 1", "Лабораторная 6\Лабораторная 6. Реорганизация повторяющихся действий Задание 1.csproj", "{8DF90A0A-3939-4969-BF5D-E215E20C1532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Реорганизация повторяющихся данных. Задание 2", "Реорганизация повторяющихся данных. Задание 2\Реорганизация повторяющихся данных. Задание 2.csproj", "{D519BAC3-4359-42F7-BF24-86C8966A502F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Реорганизация повторяющихся данных. Задание 3", "Реорганизация повторяющихся данных. Задание 3\Реорганизация повторяющихся данных. Задание 3.csproj", "{203D843B-5A14-41D6-A96A-E95B28C57FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Реорганизация повторяющихся действий. Задание 8", "Реорганизация повторяющихся действий. Задание 8\Реорганизация повторяющихся действий. Задание 8.csproj", "{3443B4B2-BF37-49A8-9D67-9252B5A3F458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DF90A0A-3939-4969-BF5D-E215E20C1532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF90A0A-3939-4969-BF5D-E215E20C1532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF90A0A-3939-4969-BF5D-E215E20C1532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF90A0A-3939-4969-BF5D-E215E20C1532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D519BAC3-4359-42F7-BF24-86C8966A502F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D519BAC3-4359-42F7-BF24-86C8966A502F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D519BAC3-4359-42F7-BF24-86C8966A502F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D519BAC3-4359-42F7-BF24-86C8966A502F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203D843B-5A14-41D6-A96A-E95B28C57FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203D843B-5A14-41D6-A96A-E95B28C57FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203D843B-5A14-41D6-A96A-E95B28C57FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203D843B-5A14-41D6-A96A-E95B28C57FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3443B4B2-BF37-49A8-9D67-9252B5A3F458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3443B4B2-BF37-49A8-9D67-9252B5A3F458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3443B4B2-BF37-49A8-9D67-9252B5A3F458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3443B4B2-BF37-49A8-9D67-9252B5A3F458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
