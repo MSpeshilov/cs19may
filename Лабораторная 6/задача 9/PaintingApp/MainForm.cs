@@ -97,5 +97,10 @@ namespace PaintingApp
             p.up();
             p.endLine();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
