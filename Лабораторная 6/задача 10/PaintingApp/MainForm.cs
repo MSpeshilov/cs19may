@@ -39,24 +39,22 @@ namespace PaintingApp
             {
                 p.down();
                 q = q + 1;
-            }p.left();
-            p.down();
+            } q = 1;
+            while (q <= 4)
+            {
+                p.left();
+                p.down();
+                q = q + 1;
+            }
             p.left();
-            p.down();
-            p.left();
-            p.down();
-            p.left();
-            p.down();
-            p.left();
-            p.up();
-            p.left();
-            p.up();
-            p.left();
-            p.up();
-            p.left();
-            p.up();
-            p.left();
-            while (q <= 6)
+            q = 1;
+            while (q <= 4)
+            {
+                p.up();
+                p.left();
+                q = q + 1;
+            } q = 1;
+            while (q <= 3)
             {
                 p.up();
                 q = q + 1;
