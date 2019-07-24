@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лабораторная 6. Реорганизация повторяющихся действий Задание 1", "Лабораторная 6\Лабораторная 6. Реорганизация повторяющихся действий Задание 1.csproj", "{8DF90A0A-3939-4969-BF5D-E215E20C1532}"
 EndProject
@@ -36,6 +36,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 20. Реорганизация повторяющихся данных", "Задание 20. Реорганизация повторяющихся данных\Задание 20. Реорганизация повторяющихся данных.csproj", "{1CCDA308-52E1-449E-8C72-72EEE3A50BE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 26. Реорганизация повторяющихся данных", "Задание 26. Реорганизация повторяющихся данных\Задание 26. Реорганизация повторяющихся данных.csproj", "{24F06F2F-BA2B-4C5F-ACC6-5463449A954F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Задание 21. Реорганизация повторяющихся данных", "Д.З. Задание 21. Реорганизация повторяющихся данных\Д.З. Задание 21. Реорганизация повторяющихся данных.csproj", "{9AAE0327-C30E-4A82-A93B-D31E95D77D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Задание 22. Реорганизация повторяющихся данных", "Д.З. Задание 22. Реорганизация повторяющихся данных\Д.З. Задание 22. Реорганизация повторяющихся данных.csproj", "{7CF05B54-DC84-4D3C-8EA7-DE24AFBF197C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Задание 23. Реорганизация повторяющихся данных", "Д.З. Задание 23. Реорганизация повторяющихся данных.\Д.З. Задание 23. Реорганизация повторяющихся данных.csproj", "{C428791E-7A2D-4214-8959-AEA37B3FA0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Задание 24. Реорганизация повторяющихся данных", "Д.З. Задание 24. Реорганизация повторяющихся данных\Д.З. Задание 24. Реорганизация повторяющихся данных.csproj", "{268DCAA4-841A-40DE-8D55-039F64342FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Задание 25. Реорганизация повторяющихся данных", "Д.З. Задание 25. Реорганизация повторяющихся данных\Д.З. Задание 25. Реорганизация повторяющихся данных.csproj", "{03DA03FF-5997-42D3-A64B-C737C31FF31B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +121,26 @@ Global
 		{24F06F2F-BA2B-4C5F-ACC6-5463449A954F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24F06F2F-BA2B-4C5F-ACC6-5463449A954F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24F06F2F-BA2B-4C5F-ACC6-5463449A954F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAE0327-C30E-4A82-A93B-D31E95D77D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAE0327-C30E-4A82-A93B-D31E95D77D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAE0327-C30E-4A82-A93B-D31E95D77D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAE0327-C30E-4A82-A93B-D31E95D77D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF05B54-DC84-4D3C-8EA7-DE24AFBF197C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF05B54-DC84-4D3C-8EA7-DE24AFBF197C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF05B54-DC84-4D3C-8EA7-DE24AFBF197C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF05B54-DC84-4D3C-8EA7-DE24AFBF197C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C428791E-7A2D-4214-8959-AEA37B3FA0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C428791E-7A2D-4214-8959-AEA37B3FA0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C428791E-7A2D-4214-8959-AEA37B3FA0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C428791E-7A2D-4214-8959-AEA37B3FA0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268DCAA4-841A-40DE-8D55-039F64342FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268DCAA4-841A-40DE-8D55-039F64342FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268DCAA4-841A-40DE-8D55-039F64342FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268DCAA4-841A-40DE-8D55-039F64342FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DA03FF-5997-42D3-A64B-C737C31FF31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DA03FF-5997-42D3-A64B-C737C31FF31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DA03FF-5997-42D3-A64B-C737C31FF31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DA03FF-5997-42D3-A64B-C737C31FF31B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
