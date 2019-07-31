@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лабораторная 8. Базовые операции с массивами", "Лабораторная 8. Базовые операции с массивами\Лабораторная 8. Базовые операции с массивами.csproj", "{B4A3241C-E623-4D08-B9D9-88655436CB1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание  4. Базовые операции с массивами", "Задание  4. Базовые операции с массивами\Задание  4. Базовые операции с массивами.csproj", "{5F5390EF-7D96-4C8E-A446-8DF9274A3435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A3241C-E623-4D08-B9D9-88655436CB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A3241C-E623-4D08-B9D9-88655436CB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A3241C-E623-4D08-B9D9-88655436CB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A3241C-E623-4D08-B9D9-88655436CB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5390EF-7D96-4C8E-A446-8DF9274A3435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5390EF-7D96-4C8E-A446-8DF9274A3435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5390EF-7D96-4C8E-A446-8DF9274A3435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5390EF-7D96-4C8E-A446-8DF9274A3435}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2720ED1C-28AF-4627-817F-EF00993B1E58}
+	EndGlobalSection
+EndGlobal
