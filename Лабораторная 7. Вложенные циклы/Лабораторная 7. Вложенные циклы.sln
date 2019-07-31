@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лабораторная 7. Вложенные циклы. Задание 1", "Лабораторная 7. Вложенные циклы\Лабораторная 7. Вложенные циклы. Задание 1.csproj", "{6B9C8606-284F-45DE-9653-678DCFF042DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 3. Вложенные циклы", "Задание 3. Вложенные циклы\Задание 3. Вложенные циклы.csproj", "{83C0BAFD-3AAC-49FE-A985-56F903015E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 5. Вложенные циклы", "Задание 5. Вложенные циклы\Задание 5. Вложенные циклы.csproj", "{21F5F019-0B5C-4074-84AC-1F656F05352B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B9C8606-284F-45DE-9653-678DCFF042DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9C8606-284F-45DE-9653-678DCFF042DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9C8606-284F-45DE-9653-678DCFF042DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9C8606-284F-45DE-9653-678DCFF042DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C0BAFD-3AAC-49FE-A985-56F903015E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C0BAFD-3AAC-49FE-A985-56F903015E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C0BAFD-3AAC-49FE-A985-56F903015E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C0BAFD-3AAC-49FE-A985-56F903015E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F5F019-0B5C-4074-84AC-1F656F05352B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F5F019-0B5C-4074-84AC-1F656F05352B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F5F019-0B5C-4074-84AC-1F656F05352B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F5F019-0B5C-4074-84AC-1F656F05352B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3E335C1-AA96-4C91-9806-801F9A1D8A30}
+	EndGlobalSection
+EndGlobal
