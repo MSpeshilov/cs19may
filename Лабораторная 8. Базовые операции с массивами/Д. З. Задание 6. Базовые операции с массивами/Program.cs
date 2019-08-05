@@ -12,17 +12,21 @@ namespace Д.З.Задание_6.Базовые_операции_с_массив
         {
             String data = Console.ReadLine();
             String[] q;
-            int b = 0;
+            
             int a ;
             q = data.Split(',');
+            int b = q.Length;
             a = q.Length - 1;
-            while (q.Length >= b)
+            while (b >= 1)
             {
+                Console.Write(a);
                 Console.Write(q[a] + " ");
+
                 a--;
-                
+                b--;
             }
-            //Console.Write(q[5], q[4], q[3], q[2], q[1], q[0]);
+            
+
         }
     }
 }

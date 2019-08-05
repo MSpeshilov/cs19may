@@ -13,13 +13,12 @@ namespace Д.З.Задание_5.Базовые_операции_с_массив
             String data = Console.ReadLine();
             String[] q;
             int a = 0;
-            int b = 1;
             q = data.Split(',');
             while (a < q.Length)
             {
-                Console.WriteLine("Глава " + b + " " + q[a]);
+                Console.WriteLine("Глава " + (a + 1) + " " + q[a]);
                 a++;
-                b++;
+                //b++;
             }
         }
     }
