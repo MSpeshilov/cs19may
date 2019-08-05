@@ -18,7 +18,6 @@ namespace Задание__4.Базовые_операции_с_массивам�
             {
                 Console.WriteLine(q[a]+ " " + a);
                     a++;
-                
             }
             /*Console.WriteLine(q[a] + " " + a);
             Console.WriteLine(q[a] + " " + a);
