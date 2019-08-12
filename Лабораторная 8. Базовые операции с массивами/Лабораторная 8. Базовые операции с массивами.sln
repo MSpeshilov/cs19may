@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. Задание 9", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Д.З. доп Зад. 9.1", "Д.З. доп Зад. 8.1\Д.З. доп Зад. 9.1.csproj", "{9D4824A4-1424-4C69-865C-787EAB1926E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 11. Базовые операции с массивами", "Задание 11. Базовые операции с массивами\Задание 11. Базовые операции с массивами.csproj", "{01C40A91-55F2-458D-93A3-F7E552BB624E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 12. Базовые операции с масиивами", "Задание 12. Базовые операции с масиивами\Задание 12. Базовые операции с масиивами.csproj", "{B78E9D05-C5D3-4174-A86C-EA0CD3E9095F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{9D4824A4-1424-4C69-865C-787EAB1926E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D4824A4-1424-4C69-865C-787EAB1926E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D4824A4-1424-4C69-865C-787EAB1926E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C40A91-55F2-458D-93A3-F7E552BB624E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C40A91-55F2-458D-93A3-F7E552BB624E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C40A91-55F2-458D-93A3-F7E552BB624E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C40A91-55F2-458D-93A3-F7E552BB624E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78E9D05-C5D3-4174-A86C-EA0CD3E9095F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78E9D05-C5D3-4174-A86C-EA0CD3E9095F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78E9D05-C5D3-4174-A86C-EA0CD3E9095F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78E9D05-C5D3-4174-A86C-EA0CD3E9095F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,27 +13,18 @@ namespace Д.З.доп_Зад._8._1
             String[] data;
             data = new String[] { "a", "b", "c", "d", "e", "f", "g", "h" };
             String x = Console.ReadLine();
-            int a = 0;
-            int b = 0;
-            while (a < 8)
+            int t = 0;
+            int i = 0;
+            while (i < data.Length)
             {
-                if (x == data[b])
+               
+                if (data[i] == x)
                 {
-
-                    Console.Write(data[b]);
-                    Console.Write("1");
-
-
-                }
-                else
-                {
-                    Console.Write(data[b]);
+                    t = 1;
                     
                 }
-                
-
-                b++;
-                a++;
+                Console.Write(t);
+                i++;
             }
         }
     }

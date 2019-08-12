@@ -17,21 +17,23 @@ namespace Д.З.Задание_9
             int b = 0;
             while (a < 8)
             {
+                Console.Write(data[b]);
                 if (x == data[b])
                 {
                     
-                    Console.Write(data[b]);
-                    return;
+                    //Console.Write(data[b]);
+                    break;
 
                 }else
                 {
-                    Console.Write(data[b]);
+                    //Console.Write(data[b]);
                 }
                 // доделать: если при введенной букве, отсутствующей в массиве выводить "-"
                 
                 b++;
                 a++;
             }
+            Console.Write("\nend");
 
             /*if (x == data[b])
             {
