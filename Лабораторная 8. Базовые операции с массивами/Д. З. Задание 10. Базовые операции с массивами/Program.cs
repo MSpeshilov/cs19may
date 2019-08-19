@@ -12,31 +12,40 @@ namespace Д.З.Задание_10.Базовые_операции_с_масси�
         {
             String left = Console.ReadLine();
             String right = Console.ReadLine();
-            String[] q;
-            q = left.Split(' ');
-            String[] w;
-            w = right.Split(' ');
+            String[] first;
+            first = left.Split(' ');
+            String[] second;
+            second = right.Split(' ');
+            int t = 0;
             int i = 0;
             int a = 0;
             
             int b = 0;
-            while (i < 5)
+            while (i < first.Length && i < second.Length)
             {
-                if(q[a] != w[b])
+                if(first[a] != second[b])
                 {
                     Console.Write("Массивы начинают различаться на индексе {0}",b);
-                    break;
-                }/*else if (left.Length< right.Length)
-                {
                     
-                    Console.Write("Массивы начинают различаться на индексе {0}", left.Length);
-                    break;
-                }*/
-                
+                    return;
+                }
                 a++;
                 b++;
                 i++;
+            }//dif = 0, если найдено отличие и dif = 1, если массивы одинаковые.
+            if (first.Length < second.Length)
+            {
+                t = second.Length - 1;
+                Console.Write("Массивы начинают различаться на индексе {0}", t);
+                
+                
+            }else if (second.Length < first.Length)
+            {
+                t = first.Length - 1;
+                Console.Write("Массивы начинают различаться на индексе {0}", t);
             }
+            
+            
         }
     }
 }
