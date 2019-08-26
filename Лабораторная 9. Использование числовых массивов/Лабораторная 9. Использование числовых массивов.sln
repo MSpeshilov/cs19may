@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 6. Испо�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 8. Использование числовых массивов", "Задание 8. Использование числовых массивов\Задание 8. Использование числовых массивов.csproj", "{9AEC35D2-0BCE-4EAF-9920-F1E7341B55A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задание 9. Использование числовых массивов", "Задание 9. Использование числовых массивов\Задание 9. Использование числовых массивов.csproj", "{7A7E3A0B-29D8-4587-8821-8A1CB0EB83E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9AEC35D2-0BCE-4EAF-9920-F1E7341B55A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AEC35D2-0BCE-4EAF-9920-F1E7341B55A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEC35D2-0BCE-4EAF-9920-F1E7341B55A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7E3A0B-29D8-4587-8821-8A1CB0EB83E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7E3A0B-29D8-4587-8821-8A1CB0EB83E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7E3A0B-29D8-4587-8821-8A1CB0EB83E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7E3A0B-29D8-4587-8821-8A1CB0EB83E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

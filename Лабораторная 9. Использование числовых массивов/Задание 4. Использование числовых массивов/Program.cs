@@ -17,18 +17,39 @@ namespace Задание_4.Использование_числовых_масс�
             int n = 0;
             int t = 1;
             int num = 19;
-            while (i < data.Length)
+            int rr = data.Length / 2;
+            int qwer = data.Length % 2;
+            if (qwer == 0)
             {
-                a[i] = int.Parse(data[i]);
-                if (a[n]<= num && a[t] >= num)
+                while (i < data.Length)
                 {
-                    Console.Write("От {0} до {1}", a[n], a[t]);
-                }
+                    a[i] = int.Parse(data[i]);
 
-                a[n] = a[n + 2];
-                a[t] = a[t + 2];
-                i++;
+                    i++;
+                }
+                i = 0;
+                while (i < rr)
+                {
+                    if (a[n] <= num && a[t] >= num)
+                    {
+                        Console.WriteLine("От {0} до {1}<--", a[n], a[t]);
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("От {0} до {1}", a[n], a[t]);
+                    }
+
+                    n = n + 2;
+                    t = t + 2;
+                    i++;
+                }
             }
+            else
+            {
+                Console.Write("У последнего интервала отсутствует одна из границ");
+            }
+            
         }
     }
 }

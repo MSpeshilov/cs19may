@@ -34,23 +34,20 @@ namespace Задание_8.Использование_числовых_масс�
             }
             else
             {
-
+                
                 while (a < q.Length)
                 {
                     num[a] = int.Parse(p[a]);
                     
                     while (b < num[a])
                     {
-                        Console.WriteLine(q[b]);
-                        while (c < num[c])
-                        {
-                            Console.Write(p[c]);
-                            c++;
-                        }
+                        Console.Write(q[a]);
+                        
                         b++;
-                        //b = 0;
+                        
                     }
-                    //b = 0;
+                    Console.WriteLine();
+                    b = 0;
                     a++;
                 }
             }
