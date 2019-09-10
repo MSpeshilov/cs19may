@@ -17,7 +17,7 @@ namespace Задание_10.Использование_числовых_масс
             int c = 0;
             int d = 1;
             int e = 0;
-            int f = 0;
+            //int f = 0;
             int[] num = new int[data.Length];
             if (String.IsNullOrEmpty(dd))
             {
@@ -54,23 +54,19 @@ namespace Задание_10.Использование_числовых_масс
 
                 }
                 Console.WriteLine();
-                while (f < data.Length)
+                a = 0;
+                while (a < data.Length)
                 {
-                    Console.Write("{0}", num[f]);
+                    Console.Write("{0} ", num[a]);
 
-                    f++;
+                    a++;
                 }
                 d = 1;
                 a = 0;
                 e++;
-                f = 0;
+                
             }
-            
-            
-           
-            
-            
-            
+              
         }
     }
 }
