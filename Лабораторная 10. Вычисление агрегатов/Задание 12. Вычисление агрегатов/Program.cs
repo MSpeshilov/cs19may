@@ -12,6 +12,7 @@ namespace Задание_12.Вычисление_агрегатов
             String dd = Console.ReadLine();
             String[] gg = dd.Split(' ');
             int a = 0;
+            int c = 0;
             int b = gg.Length / 3;
             int[] data = new int[gg.Length];
             while(a < gg.Length)
@@ -19,7 +20,16 @@ namespace Задание_12.Вычисление_агрегатов
                 data[a] = int.Parse(gg[a]);
                 a++;
             }a = 0;
-            int s;
+            while (a < b)
+            {
+                while (c < 3)
+                {
+
+                    c++;
+                }
+                a++;
+            }
+            /*int s;
             int sum;
             int sum1;
             int sum2;
@@ -34,7 +44,7 @@ namespace Задание_12.Вычисление_агрегатов
             }
             Console.Write("Группа {0} {1} {2} сумма {3}", data[0], data[1], data[2], sum);
             Console.Write("Группа {0} {1} {2} сумма {3}", data[3], data[4], data[5], sum1);
-            Console.Write("Группа {0} {1} сумма {2}", data[6], data[7], sum2);
+            Console.Write("Группа {0} {1} сумма {2}", data[6], data[7], sum2);*/
         }
     }
 }
