@@ -20,10 +20,12 @@ namespace Задание_6.Строки
             if (i1 == -1)
             {
                 Console.Write("Значение {0} отсутствует в строке", a);
+                return;
             }
             else if (i2 == -1)
             {
                 Console.Write("Значение {0} отсутствует в строке", b);
+                return;
             }
             else
             {
