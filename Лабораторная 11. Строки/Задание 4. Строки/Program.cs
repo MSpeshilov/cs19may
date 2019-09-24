@@ -12,9 +12,27 @@ namespace Задание_4.Строки
         {
             String text = "abcabcabbacbacbaaac";
             String data = Console.ReadLine();
-            int i = text.LastIndexOf(data);
-            Console.Write(i);
-            // проверка на кол-во введенных букв?
+            int i;
+            if (data.Length != 2)
+            {
+                Console.Write("Вводимая строка должна содержать ровно 2 символа");
+            }
+            else
+            {
+                i = text.IndexOf(data);
+                if (i != -1)
+                {
+                    
+                    Console.Write("{0} ", i);
+                    i = i + 1;
+                    i = text.IndexOf(data, i);
+                    Console.Write("{0} ", i);
+                    i = i + 1;
+                    i = text.IndexOf(data, i);
+                    Console.Write(i);
+                }// индекс оф?\ ласт индекс оф?
+            }
+            
         }
     }
 }
